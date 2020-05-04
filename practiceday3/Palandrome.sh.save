@@ -1,0 +1,2 @@
+#!/bin/bash -x
+cat access.log | awk'{print $11}' | sort | unic -c | head-4
